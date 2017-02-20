@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="698414cc98298baadd11a4696d445ab5db079131">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a02d31978de614bfc73fcef0a8eef567ac63a126/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_8190ba7e304de31b7c507c9497a14603eab34f06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_c9f00a0de72e1c4056056824abfce52f2d6ab490/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_1007491745e88ae422945d99a7bcd2b1e558038d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_b8501dab429f52bdb5402c336611b8a63dee994b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_5cde991bbb9bd9a703b8d90bb476d762897c988d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_d9b81cc63acaa50c91b43fceb7e54bbfdb914bb5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_e1401fbb2fcd252b9bcb8434a021d7353db676ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_44a6d4ac54475c003fa69b04d6e7d246f1619722/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_000e1af3d0cbca8cc16395d0834d1e054c3cdf8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_bad6ee004ab092461ef5f0277ccec2d2ee6856ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_e0a3b498ccdf401da4d8d824e5ba794334d67312/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c1ae977d5bc51bc3e1a3dd84ab9d26c0fc49ba60">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d8924fe269d03ed491a3c3c54f1f19a71c344bdd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_92e124606914180c9c98d95b4bb072b9cb2cb914/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_88abed59dffeb477e7ea6233314589f2eff79b55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/dianamilton/Desktop/Spring 2017/CS2340/dmilton3/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_221b9c441d89770e36ab807b842e5da334234389/classes.dex" />
+    </item>
+
+</items>
