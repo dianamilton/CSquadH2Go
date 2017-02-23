@@ -5,21 +5,26 @@ package com.example.dianamilton.h2go;
  */
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Spinner;
+import java.util.List;
+import java.util.ArrayList;
 
 import butterknife.ButterKnife;
 import butterknife.Bind;
 
 public class SignupActivity extends AppCompatActivity {
     private static final String TAG = "SignupActivity";
-
+    private Spinner userSpinner;
     @Bind(R.id.input_name) EditText _nameText;
     @Bind(R.id.input_email) EditText _emailText;
     @Bind(R.id.input_password) EditText _passwordText;
@@ -31,6 +36,17 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
         ButterKnife.bind(this);
+
+        userSpinner = (Spinner) findViewById(R.id.spinner_type);
+        List<SpinnerEnum> list = new ArrayList<SpinnerEnum>();
+        list.add(SpinnerEnum.User);
+        list.add(SpinnerEnum.Admin);
+        list.add(SpinnerEnum.Manager);
+        list.add(SpinnerEnum.Worker);
+        ArrayAdapter<SpinnerEnum> dataAdapter = new ArrayAdapter<SpinnerEnum>(this, android.R.layout.simple_spinner_item, list);
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        userSpinner.setAdapter(dataAdapter);
+
 
         _signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,6 +101,8 @@ public class SignupActivity extends AppCompatActivity {
     public void onSignupSuccess() {
         _signupButton.setEnabled(true);
         setResult(RESULT_OK, null);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
         finish();
     }
 
