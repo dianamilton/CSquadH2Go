@@ -19,21 +19,30 @@ import android.widget.Toast;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class LoginActivity extends AppCompatActivity {
-    private static final String TAG = "LoginActivity";
-    private static final int REQUEST_SIGNUP = 0;
 
+public class LoginActivity extends AppCompatActivity {
+    private static final String TAG = "LoginActivity"; //defines activity
+    private static final int REQUEST_SIGNUP = 0; //defines signup request to switch screens
+
+    //defines id as xml variable
     @Bind(R.id.input_email) EditText _emailText;
     @Bind(R.id.input_password) EditText _passwordText;
     @Bind(R.id.btn_login) Button _loginButton;
     @Bind(R.id.link_signup) TextView _signupLink;
 
+    /**
+     * creating link, buttons
+     * @param savedInstanceState
+     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
 
+        /**
+         * sets up Login Button, calls for login method
+         */
         _loginButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -42,6 +51,9 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        /**
+         * sets up Sign Up link, switches page to registration page
+         */
         _signupLink.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -53,57 +65,61 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * method defining login()
+     */
     public void login() {
         Log.d(TAG, "Login");
 
-        if (!validate()) {
+        if (!validate()) { //if does not meet email or passcode requirements (for now), login fails
+            //in later modules, will be if user and passcode are already in data base
             onLoginFailed();
             return;
         }
 
-        _loginButton.setEnabled(false);
+        _loginButton.setEnabled(false); //initialize login button
 
         final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this,
                 R.style.AppTheme_Dark_Dialog);
         progressDialog.setIndeterminate(true);
-        progressDialog.setMessage("Authenticating...");
+        progressDialog.setMessage("Authenticating..."); //popup for when login passes
         progressDialog.show();
 
+        //allows user to input email and passcode to sign in
         String email = _emailText.getText().toString();
         String password = _passwordText.getText().toString();
-
-        // TODO: Implement your own authentication logic here.
 
         new android.os.Handler().postDelayed(
                 new Runnable() {
                     public void run() {
                         // On complete call either onLoginSuccess or onLoginFailed
-                        onLoginSuccess();
+                        onLoginSuccess(); //if found, call onLoginSuccess method
                         // onLoginFailed();
                         progressDialog.dismiss();
                     }
                 }, 3000);
     }
 
-
+    //if signup requirement is met, then logs in user, sends them to main activity
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == REQUEST_SIGNUP) {
             if (resultCode == RESULT_OK) {
 
-                // TODO: Implement successful signup logic here
                 // By default we just finish the Activity and log them in automatically
                 this.finish();
             }
         }
     }
 
+    //MainActivity
     @Override
     public void onBackPressed() {
         // disable going back to the MainActivity
         moveTaskToBack(true);
     }
 
+    //if login is successful, go to mainactivity page for logout button
     public void onLoginSuccess() {
         _loginButton.setEnabled(true);
         Intent intent = new Intent(this, MainActivity.class);
@@ -111,12 +127,17 @@ public class LoginActivity extends AppCompatActivity {
         finish();
     }
 
+    //if login fails, show error message
     public void onLoginFailed() {
         Toast.makeText(getBaseContext(), "Login failed", Toast.LENGTH_LONG).show();
 
         _loginButton.setEnabled(true);
     }
 
+    /**
+     * checks if signup registration user, passcode is acceptable under requirements
+     * @return
+     */
     public boolean validate() {
         boolean valid = true;
 

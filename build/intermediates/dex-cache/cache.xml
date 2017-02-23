@@ -3,6 +3,69 @@
 
     <item
         is-multidex="true"
+        jar="/Users/dianamilton/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_8190ba7e304de31b7c507c9497a14603eab34f06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_3a9fbf9eb166304cb853651149aa0ed5aca87bd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_80ffc4d56a5a7e2b495fed09be6564ba6fe98da6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_ea6da7cb3d0b550dfa366941b11eaea891607836/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_732b3504951c7fae4ef398d39f35d7cb28cc68bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ff3ac23928c1bb58db042a67a327aff1f3ceaace">
+        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7767cfe5ab0aaeb1b7adc9def128f0de0007a9a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_dffbe73ebbe798ae331b8dbb041417738712aa6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -48,48 +111,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dianamilton/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_8190ba7e304de31b7c507c9497a14603eab34f06/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_3a9fbf9eb166304cb853651149aa0ed5aca87bd9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
         <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_7ce5fa675278d90a6f31a84bd0a070c8b75d7278/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_80ffc4d56a5a7e2b495fed09be6564ba6fe98da6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_ea6da7cb3d0b550dfa366941b11eaea891607836/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,24 +129,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_732b3504951c7fae4ef398d39f35d7cb28cc68bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1af4b5d151eb50a92dd4a477973e21e8b1d1a882">
-        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7767cfe5ab0aaeb1b7adc9def128f0de0007a9a6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -129,20 +138,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_dffbe73ebbe798ae331b8dbb041417738712aa6e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="cdd0eefcfced2bb24eee9ad8e109f3fa3fffa026">
+        sha1="039a2ae7ed001ad8b2ab7308f1ff80ce46fdc588">
         <dex dex="/Users/dianamilton/Desktop/H2Go/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7eefd765ca9643d212e47a5de450a2c050b84c0e/classes.dex" />
     </item>
 

@@ -14,17 +14,26 @@ import android.widget.Button;
 import com.example.dianamilton.h2go.LoginActivity;
 import com.example.dianamilton.h2go.R;
 
-
+/**
+ * page for logout screen after login
+ */
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "LogoutActivity";
-    @Bind(R.id.btn_logout) Button _logoutButton;
+    private static final String TAG = "LogoutActivity"; //defines activity
+    @Bind(R.id.btn_logout) Button _logoutButton; //defines logout button
 
+    /**
+     * creating button for logout
+     * @param savedInstanceState
+     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_logout);
         ButterKnife.bind(this);
 
+        /**
+         * sets up Logout Button, calls for switch screen to login page
+         */
         _logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
